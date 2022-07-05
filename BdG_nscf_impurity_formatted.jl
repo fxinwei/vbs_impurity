@@ -1,4 +1,3 @@
-# using MKL
 using SpecialFunctions
 using Plots
 # Plots.gr()
@@ -8,7 +7,6 @@ using Plots
 using LinearAlgebra
 using SparseArrays
 import JLD
-# using Roots
 using CSV
 using Statistics
 using Base.Threads
@@ -435,8 +433,6 @@ println("start self-consistent calculations\n")
 cycle = 1
 
 fcycle(40, false)
-
-
 
 maxn = 1 # including only the first energy level
 
